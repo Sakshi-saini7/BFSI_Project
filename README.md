@@ -33,19 +33,6 @@ MySQL
 
 Required dependencies from requirements.txt
 
-Project Structure:
-├── supervised/
-│   ├── payslip.py
-│   ├── invoice.py
-│   ├── profit_loss.py
-│   ├── bank_statement.py
-├── semi_supervised/
-│   ├── api_data.py
-├── unsupervised/
-│   ├── bart_classification.py
-├── app.py
-├── requirements.txt
-└── README.md
 
 
 Usage:
