@@ -1,10 +1,10 @@
 BFSI - OCR of Bank Statement 
 
-Overview of this Project
+Overview of this Project-
 
 The BFSI (Banking, Financial Services, and Insurance) Data Analysis Platform is a Streamlit-based application that enables the processing and visualization of financial documents using Optical Character Recognition (OCR) and data clustering techniques.
 
-Features
+Features:
 
 Payslip Processing: Extracts and analyzes payslip data then give visualization.
 
@@ -19,7 +19,7 @@ API Data Processing: Integrates and analyzes financial data from APIs and give v
 Unsupervised Data Clustering: Uses OCR & K-Means for document classification  and give visualization.
 
 
-Installation
+Installation:
 
 Prerequisites
 
@@ -29,11 +29,11 @@ Python 3.x
 
 Streamlit
 
+MySQL
+
 Required dependencies from requirements.txt
 
-
-Project Structure
-
+Project Structure:
 ├── supervised/
 │   ├── payslip.py
 │   ├── invoice.py
@@ -46,3 +46,19 @@ Project Structure
 ├── app.py
 ├── requirements.txt
 └── README.md
+
+
+Usage:
+
+To run the BFSI project:
+
+Ensure the MySQL database is set up and the schema is created (refer to the Database section).
+
+Activate your virtual environment (if not already active).
+
+Run the Streamlit app:
+streamlit run app.py
+
+
+
+
