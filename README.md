@@ -39,7 +39,7 @@ Usage:
 
 To run the BFSI project:
 
-Ensure the MySQL database is set up and the schema is created (refer to the Database section).
+Ensure the MySQL database is set up and the schema is created.
 
 Activate your virtual environment (if not already active).
 
